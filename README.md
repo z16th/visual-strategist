@@ -1,12 +1,12 @@
 # Visual Strategist
 
-A Claude Code agent that defines a product's visual language and keeps it coherent as the product grows: icons, type, colour, layout and motion. It critiques screens and assets, proposes coded design options, runs value sweeps and writes visual language specs.
+A Claude Code agent that helps a project build a visual identity people recognise, and keeps it coherent everywhere the project appears: its interface, and also its website, social posts, video, slides, print, merchandise and events. It covers logo, colour, type, iconography, illustration, imagery, layout and motion. It builds and audits identities, critiques screens and assets, proposes coded design options, runs value sweeps, and writes identity and visual language specs.
 
 This repo is a Claude Code plugin marketplace with two plugins:
 
 | Plugin | What it adds |
 | --- | --- |
-| `visual-strategist` | The `visual-strategist:strategist` agent and the `visual-strategist:option-boards` skill |
+| `visual-strategist` | The `visual-strategist:strategist` agent and two skills: `visual-strategist:identity`, the identity process and its background knowledge (semiotics, visual rhetoric, perception, colour, type and identity systems), and `visual-strategist:option-boards`, coded design options to pick and mix |
 | `core-strategist` | The `core-strategist:method` skill: discovery, critique, coded options, specs, decision logs and handoffs. `visual-strategist` depends on it |
 
 ## Install for yourself
@@ -58,7 +58,7 @@ If a lesson from a project is worth adding here, write it so it applies to any p
 
 ## Make it your own
 
-Fork this repo, or copy `plugins/core-strategist` and `plugins/visual-strategist` into a marketplace of your own. If you rename the marketplace, change `name` in `.claude-plugin/marketplace.json` and the `@z16th` suffix in the commands above. Keep the plugin names as they are, so the agent can still find `core-strategist:method` and `visual-strategist:option-boards`.
+Fork this repo, or copy `plugins/core-strategist` and `plugins/visual-strategist` into a marketplace of your own. If you rename the marketplace, change `name` in `.claude-plugin/marketplace.json` and the `@z16th` suffix in the commands above. Keep the plugin names as they are, so the agent can still find `core-strategist:method`, `visual-strategist:identity` and `visual-strategist:option-boards`.
 
 ## License
 
