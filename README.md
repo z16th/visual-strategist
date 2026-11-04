@@ -55,3 +55,11 @@ If a lesson from a project is worth adding here, write it so it applies to any p
 
 - **Doop**, the shared design canvas, for option boards. Connect its MCP server to Claude Code. Without it, the strategist can still critique, preview options in chat and write specs.
 - **A headless Chromium** (optional), such as Playwright's `chrome-headless-shell`, to screenshot labs outside Doop.
+
+## Make it your own
+
+Fork this repo, or copy `plugins/core-strategist` and `plugins/visual-strategist` into a marketplace of your own. If you rename the marketplace, change `name` in `.claude-plugin/marketplace.json` and the `@z16th` suffix in the commands above. Keep the plugin names as they are, so the agent can still find `core-strategist:method` and `visual-strategist:option-boards`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

@@ -4,5 +4,6 @@
   "description": "Method shared by every strategist",
   "author": {
     "name": "z16th"
-  }
+  },
+  "license": "MIT"
 }

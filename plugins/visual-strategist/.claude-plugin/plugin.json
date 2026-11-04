@@ -5,5 +5,6 @@
   "author": {
     "name": "z16th"
   },
+  "license": "MIT",
   "dependencies": ["core-strategist"]
 }
