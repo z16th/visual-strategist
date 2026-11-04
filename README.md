@@ -13,9 +13,10 @@ This repo is a Claude Code plugin marketplace with two plugins:
 
 ```bash
 claude plugin marketplace add z16th/visual-strategist
-claude plugin install core-strategist@z16th
 claude plugin install visual-strategist@z16th
 ```
+
+This also installs `core-strategist`.
 
 ## Offer it to everyone working in a project
 
