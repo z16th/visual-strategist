@@ -1,0 +1,19 @@
+{
+  "name": "z16th",
+  "description": "Visual Strategist for Claude Code, with the method every strategist shares",
+  "owner": {
+    "name": "z16th"
+  },
+  "plugins": [
+    {
+      "name": "core-strategist",
+      "source": "./plugins/core-strategist",
+      "description": "Method shared by every strategist"
+    },
+    {
+      "name": "visual-strategist",
+      "source": "./plugins/visual-strategist",
+      "description": "Visual language strategist: icons, type, colour, layout and motion"
+    }
+  ]
+}

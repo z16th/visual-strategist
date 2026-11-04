@@ -1,0 +1,9 @@
+{
+  "name": "visual-strategist",
+  "version": "0.1.0",
+  "description": "Visual language strategist: icons, type, colour, layout and motion",
+  "author": {
+    "name": "z16th"
+  },
+  "dependencies": ["core-strategist"]
+}
