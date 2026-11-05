@@ -12,7 +12,7 @@ Class: any proposal of design directions for an owner to choose from: icon syste
 ## Always-on rules
 - **Every proposal lands in Doop, not only in chat.** An inline preview is for quick review; the owner checks Doop. When asked for options (even "in the meantime"), build the Doop frames in the same turn and finish by naming the page and frames to check. Don't pause the Doop build waiting on someone else's answer when you can draw palette-neutral work now.
 - **Palette-neutral until roles are assigned.** If colour roles are open, draw in neutral ink per mode and say so on the board; then nothing needs redrawing when colours land.
-- **Light and dark on every card**, stacked (light on top) inside the card. Side-by-side panels overflow a ~430 px card.
+- **Light and dark on every card**, stacked (light on top) inside the card. Side-by-side panels overflow a narrow card.
 - **Coded cards** (1A, 1B…) with: idea, preview, Motion, Gains, Gives up, colour-vision swatches (normal/deutan/protan/tritan per mode, Machado 2009), plus 2–3 ready-made combinations with one marked recommended.
 - **Board copy in the product's language**, which the brief names. Chat to the owner in their own language.
 - **Every duration on a card must be a motion token** (or add the token). Mismatches get caught in review and undermine the spec.
@@ -27,11 +27,11 @@ Class: any proposal of design directions for an owner to choose from: icon syste
 7. Reply: which page and frames to check, what was fixed in QA, what's still open, the decision needed.
 
 ## Pitfalls (semantic, caught only by looking)
-- **Small marks can change what a character means.** Check any dot, ring or badge against the product's writing systems, and move it if it could read as a diacritic.
-- **Hand-drawn characters drift into other characters.** Draw them from stroke or font data, and check that nothing covers a stroke.
-- **One shape, one meaning.** Once a shape carries a meaning, every later use must keep it. Check the same shape isn't also feedback and progress; differentiate (dotted/partial ring) or say so on the card.
+- **Small marks next to text can read as part of it.** Check any dot, ring or badge that sits beside letters or numerals against every script in the brief, and move it if it could read as an accent or diacritic.
+- **Redrawn lettering drifts into other letters.** Build any text shown as artwork from real font outlines, not by hand, and check that no overlay covers part of a glyph.
+- **One shape, one meaning.** Once a shape carries a meaning, every later use must keep it. Check that one shape doesn't stand for two things, such as both feedback and progress. Give each use its own form, or say so on the card.
 - **A sign that merges two symbols can read as something else.** Look at it small, and test it with people from each culture in the brief.
-- **Faint early stages** (dotted rings at 0.3 opacity) vanish on dark; keep ≥0.75 opacity and 2 px.
+- **Faint states vanish on dark.** Low-opacity or hairline marks, such as disabled or not-yet-reached states, disappear on a dark ground. Keep them at ≥0.75 opacity and 2 px.
 - **Decorative tints on dark** need about 2.5–3:1 to be seen at all; say they carry no meaning.
 - Flag options that drift toward the brand's anti-reference on the card itself with a visible tag and the reason.
 
